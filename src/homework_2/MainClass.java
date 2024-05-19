@@ -8,6 +8,12 @@ class MainClass {
 
         int result2 = Calculator.minus(8,5);
         System.out.println(result2);
+
+//        Call all new methods from Calculator class
+//        Print the results here
+
+//        Delete all comments before pushing
+
     }
 
 
