@@ -9,10 +9,20 @@ class MainClass {
         int result2 = Calculator.minus(8,5);
         System.out.println(result2);
 
-//        Call all new methods from Calculator class
-//        Print the results here
+        float divide =  Calculator.divide(5,2);
+        System.out.println(divide);
 
-//        Delete all comments before pushing
+        boolean isbiger = Calculator.isBigger(10,4);
+        System.out.println(isbiger);
+
+        boolean isEven = Calculator.isEven(5);
+        System.out.println(isEven);
+
+        boolean isSmaller = Calculator.isSmaller(7,6);
+        System.out.println(isSmaller);
+
+        int multiply = Calculator.multiply(5,5);
+        System.out.println(multiply);
 
     }
 
