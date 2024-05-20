@@ -10,54 +10,46 @@ public class Calculator {
         return number1 - number2;
     }
 
-    static void divide() {
-        // Todo: write logic to divide two numbers.
-        // This method should take two numbers from the main method,
-        // do the operation and the result should be printed in the main method
-        // You may change the incoming parameters and return value of this method (return value should be double/float number)
+    static float divide(int number1, int number2) {
+        float divide = number1 / number2;
+        return divide;
+
     }
 
-    static void isBigger() {
-        // Todo: write logic to check if the first number is bigger than the second one.
-        // This method should take two numbers from the main method,
-        // check if the first one is bigger and the result should be printed in the main method
-        // You may change the incoming parameters and return value of this method
+    static boolean isBigger(int number1, int number2) {
 
 
-//        use <if> statement, write the checking logic in () and return true/false in {}
-//        if the statement in () is true, the logic in {} will be executed
-//        if the statement in () is false, the logic in {} will be skipped
+        if (number1 > number2) {
+            return true;
 
-//        delete <//> to use the written code
-//        if(){
-//
-//        }
+        } else {
+
+            return false;
+        }
     }
 
-    static void isSmaller() {
-        // Todo: write logic to check if the first number is smaller than the second one.
-        // This method should take two numbers from the main method,
-        // check if the first one is smaller and the result should be printed in the main method
-        // You may change the incoming parameters and return value of this method
+    static boolean isSmaller(int number1, int number2) {
+        if (number1 < number2) {
+            return true;
+        } else {
+            return false;
+        }
 
-//        use the <if> statement
+
     }
 
-    static void isEven() {
-        // Todo: write logic to check if the number is even.
-        // This method should take one number from the main method,
-        // do the operation and the result should be printed in the main method
-        // You may change the incoming parameters and return value of this method
+    static boolean isEven(int number) {
+        if (number % 2 == 0) {
+            return true;
+        }
 
-//        in Java we use == if we want to say =. We write 7 == 7 instead of 7 = 7
-//        use the <if> statement
+        return false;
+
     }
 
-    static void multiply() {
-        // Todo: write logic to divide two numbers.
-        // This method should take two numbers from the main method,
-        // do the operation and the result should be printed in the main method
-        // You may change the incoming parameters and return value of this method
+    static int multiply(int number1, int number2) {
+        return (number1 * number2);
+
     }
 
 }
