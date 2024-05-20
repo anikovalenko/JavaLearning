@@ -69,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_2.MainClass" />
       <module name="JavaLearning" />
       <extension name="coverage">
@@ -84,7 +84,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ArrayDemo" />
       </list>
     </recent_temporary>
