@@ -12,8 +12,8 @@ class MainClass {
         float divide =  Calculator.divide(5,2);
         System.out.println(divide);
 
-        boolean isbiger = Calculator.isBigger(10,4);
-        System.out.println(isbiger);
+        boolean isbigger = Calculator.isBigger(10,4);
+        System.out.println(isbigger);
 
         boolean isEven = Calculator.isEven(5);
         System.out.println(isEven);
