@@ -15,7 +15,10 @@ public class Loops {
             System.out.println(tver[i] + 1);
             System.out.println("-------------------------");
         }
+
+
     }
+
 
 
 }
