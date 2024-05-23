@@ -6,14 +6,8 @@ public class Porcer {
 
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
-
         }
 
-    }
-
-
-public class Porcer {
-    public static void main(String[] args) {
         System.out.println("hello");
         int a = 20;
         int b = 2;
@@ -44,7 +38,7 @@ public class Porcer {
 
         } //okaay
 
-        Boolean b = false;
+        Boolean b2 = false;
         char c = '!';
         float f = 3.5f;
         double d = 50.4;
