@@ -3,11 +3,9 @@ package homework_3;
 public class Task_1 {
 
     public static void main(String[] args) {
-        /**
-         * I should open each comment, run the code, and the triangles should be printed
-         */
-//        drawLeftUpTriangle(10);
-//        drawRightUpTriangle(10);
+
+//        drawLeftUpTriangle(5);
+//        drawRightUpTriangle(5);
 //        drawLeftBottomTriangle(10);
 //        drawRightBottomTriangle(10);
 //        drawRhombus(10);
@@ -28,7 +26,15 @@ public class Task_1 {
      * @param length specified length of triangle will be drawn
      */
     public static void drawLeftUpTriangle(int length) {
-    // Todo write logic here
+        int pointer = 1;
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < pointer; j++) {
+                System.out.print("* ");
+            }
+            pointer++;
+            System.out.println();
+
+        }
     }
 
 
@@ -36,16 +42,28 @@ public class Task_1 {
      * Draws the triangle by specified length number
      * for example when n = 5 , it must be such as
      * drawn below :
-     * *
-     * * *
-     * * * *
-     * * * * *
+     *         *
+     *       * *
+     *     * * *
+     *   * * * *
      * * * * * *
      *
      * @param length specified length of triangle will be drawn
      */
     public static void drawRightUpTriangle(int length) {
-    // Todo write logic here
+        int pointer = 1;
+        for (int i = 0; i < length;i++) {
+            for (int j = length; j > 0; j--) {
+              if (j>pointer){
+                  System.out.print("  ");
+              } else {
+                  System.out.print("* ");
+              }
+            }
+            pointer++;
+            System.out.println();
+
+        }
     }
 
 
@@ -70,11 +88,10 @@ public class Task_1 {
      * Draws the triangle by specified length number
      * for example when n = 4 , it must be such as
      * drawn below :
-     * <p>
      * * * * *
-     * * * *
-     * * *
-     * *
+     *   * * *
+     *     * *
+     *       *
      *
      * @param length specified length of triangle will be drawn
      */
@@ -104,10 +121,10 @@ public class Task_1 {
 
     /**
      * lenght = 5
-     * *
-     * * * *
-     * * * * * *
-     * * * * * * * *
+     *         *
+     *       * * *
+     *     * * * * *
+     *   * * * * * * *
      * * * * * * * * * *
      *
      * @param length specified length of triangle will be drawn
@@ -119,10 +136,10 @@ public class Task_1 {
 
     /**
      * * * * * * * * * *
-     * * * * * * * *
-     * * * * * *
-     * * * *
-     * *
+     *   * * * * * * *
+     *     * * * * *
+     *       * * *
+     *         *
      *
      * @param length specified length of triangle will be drawn
      */
